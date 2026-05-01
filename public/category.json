@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Neon Predator Bull",
+    "type": "Cow",
+    "breed": "Cyber-Deshi",
+    "price": 150000,
+    "weight": 320,
+    "age": 3,
+    "location": "Dhaka",
+    "description": "A high-tech aesthetic bull perfect for a futuristic farm setup.",
+    "image": "https://i.postimg.cc/cyber-cow.jpg",
+    "category": "cyberpunk"
+  },
+  {
+    "id": 2,
+    "name": "Dragon-Horn Ram",
+    "type": "Goat",
+    "breed": "Mythical Bengal",
+    "price": 45000,
+    "weight": 45,
+    "age": 2,
+    "location": "Sylhet",
+    "description": "Majestic goat with horns resembling fantasy creatures. Healthy and active.",
+    "image": "https://i.postimg.cc/fantasy-goat.jpg",
+    "category": "fantasy"
+  },
+  {
+    "id": 3,
+    "name": "Retro Pixel Ox",
+    "type": "Cow",
+    "breed": "8-Bit Hybrid",
+    "price": 90000,
+    "weight": 250,
+    "age": 4,
+    "location": "Rajshahi",
+    "description": "Classic look with a blocky build, reminiscent of retro video games.",
+    "image": "https://i.postimg.cc/pixel-cow.jpg",
+    "category": "pixel-art"
+  },
+  {
+    "id": 4,
+    "name": "Galactic Steer",
+    "type": "Cow",
+    "breed": "Andromeda Deshi",
+    "price": 200000,
+    "weight": 400,
+    "age": 3,
+    "location": "Chittagong",
+    "description": "A stellar animal with a coat that shines like the deep cosmos.",
+    "image": "https://i.postimg.cc/scifi-cow.jpg",
+    "category": "scifi"
+  },
+  {
+    "id": 5,
+    "name": "Clockwork Buffalo",
+    "type": "Buffalo",
+    "breed": "Victorian Heavy",
+    "price": 350000,
+    "weight": 650,
+    "age": 5,
+    "location": "Khulna",
+    "description": "Sturdy and powerful buffalo with a mechanical-era aesthetic.",
+    "image": "https://i.postimg.cc/steampunk-buf.jpg",
+    "category": "steampunk"
+  },
+  {
+    "id": 6,
+    "name": "Dreamscape Heifer",
+    "type": "Cow",
+    "breed": "Cloud Walker",
+    "price": 130000,
+    "weight": 280,
+    "age": 2,
+    "location": "Barisal",
+    "description": "An ethereal looking cow that feels like it stepped out of a dream.",
+    "image": "https://i.postimg.cc/surreal-cow.jpg",
+    "category": "surreal"
+  }
+]
