@@ -14,18 +14,18 @@ const Banner = () => {
             Shudhu goru ar goru! Eid Mubarak!
           </p>
 
-          <div className="flex gap-4">
+          <div className="flex gap-6">
             <Link href="#">
-              <Button className="bg-linear-to-r from-pink-500 via-purple-500 bg-red-500">
+              <Button className="bg-linear-to-r from-pink-500 via-purple-500 bg-red-500 ">
                 Browse Animals
               </Button>
             </Link>
 
-            <Link href="/pricing">
+            {/* <Link href="/pricing">
               <Button variant="outline" className="text-white">
                 View Pricing
               </Button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
