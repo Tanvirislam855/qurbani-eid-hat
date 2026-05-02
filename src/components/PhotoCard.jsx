@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Card } from "@heroui/react";
 import { Chip } from '@heroui/react';
 import { Button } from '@heroui/react';
+import Link from 'next/link';
 
 const PhotoCard = ({photo}) => {
     console.log(photo)
@@ -18,7 +19,7 @@ const PhotoCard = ({photo}) => {
                 alt={photo.name}
                 className=" rounded-t-xl object-cover"
                 />
-                <chip className="absolute right-2 top-2" >{photo.catagory}</chip>
+                <Chip className="absolute right-2 top-2" >{photo.catagory}</Chip>
             </div>
             <div>
                 <h2 className="font-medium">{photo.name}</h2>
@@ -31,7 +32,7 @@ const PhotoCard = ({photo}) => {
                 
             
             </div>
-            <button className="{w-full mt-4 bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition}">view details</button>
+            <Link href={`/all-photos/${photo.id}`} > <button className="{w-full mt-4 bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition}">view details</button> </Link>
             
         </Card>
     );
