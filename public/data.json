@@ -9,8 +9,9 @@
     "age": 3,
     "location": "Bogura",
     "description": "Healthy deshi cow suitable for Qurbani. Well fed with natural khabar.",
-    "image": "https://i.postimg.cc/example-cow1.jpg",
+    "image": "https://cdn.britannica.com/23/63523-050-455ECEAB/Hereford-bull.jpg",
     "category": "Large Animal"
+    
   },
   {
     "id": 2,
@@ -22,7 +23,7 @@
     "age": 4,
     "location": "Sirajganj",
     "description": "Big size hybrid cow with excellent health record. Best for high budget buyers.",
-    "image": "https://i.postimg.cc/example-cow2.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStPWLYI6_7DWJuMddO-MM158lQTAZu59890A&s",
     "category": "Large Animal"
   },
   {
@@ -35,7 +36,7 @@
     "age": 2,
     "location": "Kushtia",
     "description": "Pure black bengal goat. Meat quality is top-notch and healthy.",
-    "image": "https://i.postimg.cc/example-goat1.jpg",
+    "image": "https://cdn.britannica.com/23/63523-050-455ECEAB/Hereford-bull.jpg",
     "category": "Small Animal"
   },
   {
@@ -48,7 +49,7 @@
     "age": 3,
     "location": "Rajshahi",
     "description": "Tall and healthy Jamnapari goat. Active and properly vaccinated.",
-    "image": "https://i.postimg.cc/example-goat2.jpg",
+    "image": "https://cdn.britannica.com/23/63523-050-455ECEAB/Hereford-bull.jpg",
     "category": "Small Animal"
   },
   {
@@ -61,7 +62,7 @@
     "age": 5,
     "location": "Bhola",
     "description": "Giant Murrah buffalo, high weight and very healthy. Managed in organic farm.",
-    "image": "https://i.postimg.cc/example-buffalo1.jpg",
+    "image": "https://cdn.britannica.com/23/63523-050-455ECEAB/Hereford-bull.jpg",
     "category": "Large Animal"
   },
   {
@@ -74,7 +75,7 @@
     "age": 3,
     "location": "Chittagong",
     "description": "Beautiful red sindhi bull. Strong build and perfect for Qurbani sacrifice.",
-    "image": "https://i.postimg.cc/example-cow3.jpg",
+    "image": "https://cdn.britannica.com/23/63523-050-455ECEAB/Hereford-bull.jpg",
     "category": "Large Animal"
   }
 ]

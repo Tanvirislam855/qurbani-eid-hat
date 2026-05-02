@@ -26,18 +26,17 @@ const Footer = () => {
               <Image
                 src="/logo.png"
                 alt="pixgen logo"
-                width={32}
-                height={32}
+                width={60}
+                height={60}
                 className="dark:brightness-200"
               />
               <h2 className="text-xl font-semibold tracking-tight text-black dark:text-white">
-                pixgen
+                QurbaniHat
               </h2>
             </div>
 
             <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-400 max-w-xs">
-              Create production-ready AI visuals in seconds. Built for speed,
-              scale, and creativity.
+              Met our 'Gabtoli's King' today. Eid-ul-Adha Mubarak!
             </p>
           </div>
 
