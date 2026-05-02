@@ -11,7 +11,9 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-          hostname: 'i.postimg.cc',   
+        hostname: 'i.postimg.cc', 
+        hostname: 'encrypted-tbn0.gstatic.com',
+        port: '',  
         pathname: '/**',
         },
     ],
