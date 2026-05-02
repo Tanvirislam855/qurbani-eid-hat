@@ -6,7 +6,7 @@ const TopGenerations = async() => {
     
     return (
         <div>
-            <h1 className="text-2xl font-bold mt-5">TopGeneration</h1>
+            <h1 className="text-2xl font-bold my-5">Featured Animals</h1>
             <div className="grid grid-cols-4 gap-5">
                 {photos && photos.map(photo => <PhotoCard key={photo.id} photo={photo}/>)}
                     {/* {photo.name} */}
