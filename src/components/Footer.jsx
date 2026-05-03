@@ -41,11 +41,11 @@ const Footer = () => {
           </div>
 
           {/* Product */}
-          <div>
+          {/* <div>
             <h3 className="text-sm font-semibold text-black dark:text-white mb-4">
               Product
-            </h3>
-            <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
+            </h3> */}
+            {/* <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
               <li>
                 <Link
                   href="/generate"
@@ -62,19 +62,19 @@ const Footer = () => {
                   Gallery
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/pricing"
                   className="hover:text-black dark:hover:text-white transition"
                 >
                   Pricing
-                </Link>
-              </li>
-            </ul>
-          </div>
+                </Link> */}
+              {/* </li> */}
+            {/* </ul>  */}
+          {/* </div> */}
 
           {/* Company */}
-          <div>
+          <div className="flex text-center justify-between">
             <h3 className="text-sm font-semibold text-black dark:text-white mb-4">
               Company
             </h3>
@@ -107,16 +107,16 @@ const Footer = () => {
           </div>
 
           {/* CTA Block */}
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <h3 className="text-sm font-semibold text-black dark:text-white">
-              Start creating
+              Start chossing
             </h3>
 
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            {/* <p className="text-sm text-gray-600 dark:text-gray-400">
               Generate your first AI image today.
-            </p>
+            </p> */}
 
-            <Link
+            {/* <Link
               href="/signup"
               className="inline-flex items-center justify-center px-5 py-2.5 rounded-full 
               bg-black text-white dark:bg-white dark:text-black 
@@ -124,8 +124,8 @@ const Footer = () => {
               hover:scale-[1.02] hover:shadow-lg hover:shadow-black/10 dark:hover:shadow-white/10"
             >
               Get Started
-            </Link>
-          </div>
+            </Link> */}
+          {/* </div> */}
         </div>
 
         {/* Divider */}
@@ -133,7 +133,7 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 dark:text-gray-400">
-          <p>© {new Date().getFullYear()} pixgen. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} All rights reserved.</p>
 
           <div className="flex items-center gap-6">
             <Link
