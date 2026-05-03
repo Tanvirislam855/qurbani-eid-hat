@@ -2,8 +2,13 @@
 import { betterAuth } from "better-auth";
 import { MongoClient } from "mongodb";
 import { mongodbAdapter } from "better-auth/adapters/mongodb";
+// import dns, { setDefaultResultOrder } from "dns";
+// import { setDefaultAutoSelectFamily } from "net";
+// dns.setDefaultResultOrder(ipv4first);
+import dns from "dns";
+dns.setDefaultResultOrder("ipv4first");
 
-const client = new MongoClient("Process.env.MONGODB_URI");
+const client = new MongoClient(process.env.MONGODB_URI);
 const db = client.db("qurbani-eid-hat");
 
 export const auth = betterAuth({

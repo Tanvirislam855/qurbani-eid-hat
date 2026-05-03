@@ -2,11 +2,13 @@
 import { authClient } from "@/lib/auth-client";
 import Image from "next/image";
 import Link from "next/link";
-import { Avatar } from '@heroui/react';
+import { Avatar,Button } from '@heroui/react';
+
 
 const Navbar = () => {
-  const userData = authClient.useSession()
-  const user = userData.data?.user
+  const userData = authClient.useSession();
+  const user = userData.data?.user;
+
   const handleSignOut = async() =>{
     await authClient.signOut();
   
