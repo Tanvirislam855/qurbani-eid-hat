@@ -31,24 +31,26 @@ const Navbar = () => {
 
         <ul className="flex items-center gap-5 text-sm">
           <li>
-            <Link href={"/"}>Home</Link>
+            <Link href={"/"} className="bg-[#007bff] text-white px-5 py-2 rounded-full font-medium hover:bg-blue-600 transition">Home</Link>
           </li>
           <li>
-            <Link href={"/all-animals"}>All Animals</Link>
+            <Link href={"/all-animals"} className="bg-[#007bff] text-white px-5 py-2 rounded-full font-medium hover:bg-blue-600 transition">
+            <span className="animate__animated animate__tada inline-block">
+             All Animals</span></Link>
           </li>
       
           <li>
-            <Link href={"/profile"}>Profile</Link>
+            <Link href={"/profile"} className="bg-[#007bff] text-white px-5 py-2 rounded-full font-medium hover:bg-blue-600 transition">Profile</Link>
           </li>
         </ul>
 
         <div className="flex gap-4">
           { !user && <ul className="flex items-center gap-5 text-sm">
             <li>
-              <Link href={"/signup"}>SignUp</Link>
+              <Link href={"/signup"}className="bg-[#007bff] text-white px-5 py-2 rounded-full font-medium hover:bg-blue-600 transition">SignUp</Link>
             </li>
             <li>
-              <Link href={"/signin"}>SignIn</Link>
+              <Link href={"/signin"} className="bg-[#007bff] text-white px-5 py-2 rounded-full font-medium hover:bg-blue-600 transition">SignIn</Link>
             </li>
           </ul>}
           {

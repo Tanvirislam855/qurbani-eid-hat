@@ -1,6 +1,7 @@
 import { Button } from "@heroui/react";
 import Link from "next/link";
 
+
 const Banner = () => {
   return (
     <div className="bg-[url('/Bannereid.jpg')] h-[60vh] w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
@@ -13,11 +14,12 @@ const Banner = () => {
           <p className="text-lg md:text-xl mb-6 max-w-xl text-gray-200">
             Shudhu goru ar goru! Eid Mubarak!
           </p>
+          
 
           <div className="flex gap-6">
             <Link href="#">
               <Button className="bg-linear-to-r from-pink-500 via-purple-500 bg-red-500 ">
-                Browse Animals
+                 <span className="animate__animated animate__bounce inline-block">Browse Animals</span>
               </Button>
             </Link>
 
