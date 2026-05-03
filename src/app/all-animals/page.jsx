@@ -1,6 +1,7 @@
 import PhotoCard from "@/components/PhotoCard";
 
 
+
 const AllPhotospage = async () => {
     const res = await fetch ('https://qurbani-eid-hat.vercel.app/data.json')
     const photos =await res.json()
@@ -15,8 +16,11 @@ const AllPhotospage = async () => {
 ))}
             </div>
             
+            
         </div>
+        
     );
+    
 };
 
 export default AllPhotospage;

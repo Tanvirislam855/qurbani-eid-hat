@@ -1,4 +1,5 @@
 import PhotoCard from "./PhotoCard";
+import QurbaniTips from "@/components/QurbaniTips";
 
 const TopGenerations = async() => {
     const res = await fetch('https://qurbani-eid-hat.vercel.app/data.json')
@@ -12,8 +13,11 @@ const TopGenerations = async() => {
                     {/* {photo.name} */}
             
             </div>
+            <QurbaniTips />
         </div>
+        
     );
+    
 };
 
 export default TopGenerations;

@@ -61,6 +61,7 @@ const PhotoDetailsPage = async ({ params }) => {
                 <button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 rounded-xl shadow-lg transition-all mt-4">
                     Buy Now
                 </button>
+                
             </div>
         </div>
         
