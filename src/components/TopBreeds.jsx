@@ -8,9 +8,7 @@ const TopBreeds = () => {
           Top Breeds for Qurbani
         </h2>
         <p className="text-gray-300 mt-3 max-w-2xl mx-auto">
-          Explore the most popular and healthy livestock breeds chosen for
-          Qurbani. These animals are well-fed, strong, and carefully selected
-          from trusted farms across Bangladesh.
+          Explore the tips with your mentor
         </p>
       </div>
 
@@ -18,19 +16,17 @@ const TopBreeds = () => {
 
         <div className="card bg-white text-black shadow-xl border border-gray-200 p-5">
           <h3 className="text-xl font-bold mb-2 text-black/90">
-            Black Bengal Goat
+            Black Bengal Goat:
           </h3>
           <p className="text-sm text-black/70">
-            One of the most popular goat breeds in Bangladesh. Known for tender
-            meat, high demand, and fast growth.
+            A premium local breed famous for its superior meat quality and high demand across Bangladesh.
           </p>
         </div>
 
         <div className="card bg-white text-black shadow-xl border border-gray-200 p-5">
           <h3 className="text-xl font-bold mb-2 text-black/90">Sahiwal Cow</h3>
           <p className="text-sm text-black/70">
-            A strong dairy and meat breed with high resistance to heat and
-            diseases. Ideal for Qurbani and farming.
+            Renowned for its robust build and excellent disease resistance, making it a top choice for both sacrifice and farming.
           </p>
         </div>
 
@@ -39,24 +35,21 @@ const TopBreeds = () => {
             Jamunapari Goat
           </h3>
           <p className="text-sm text-black/70">
-            Large-sized goat breed known for its impressive height, meat
-            quality, and calm behavior.
+            A majestic breed recognized for its significant height and calm nature, offering high-yield meat production.
           </p>
         </div>
 
         <div className="card bg-white text-black shadow-xl border border-gray-200 p-5">
           <h3 className="text-xl font-bold mb-2 text-black/90">Deshi Cow</h3>
           <p className="text-sm text-black/70">
-            Local Bangladeshi cow breed, strong, healthy, and easily adaptable
-            to local environments.
+            The quintessential Bangladeshi breed, prized for its strength, organic growth, and perfect adaptation to the local climate.
           </p>
         </div>
 
         <div className="card bg-white text-black shadow-xl border border-gray-200 p-5">
           <h3 className="text-xl font-bold mb-2 text-black/90">Boer Goat</h3>
           <p className="text-sm text-black/70">
-            Imported high-quality goat breed known for fast weight gain and
-            premium meat production.
+            An elite imported variety known for its rapid weight gain and world-class meat texture.
           </p>
         </div>
 
@@ -65,8 +58,7 @@ const TopBreeds = () => {
             River Buffalo
           </h3>
           <p className="text-sm text-black/70">
-            Heavy and strong buffalo breed, commonly used for meat and milk
-            production in rural areas.
+            A powerful and heavy breed frequently chosen for its rich meat and significant presence in rural markets.
           </p>
         </div>
       </div>
