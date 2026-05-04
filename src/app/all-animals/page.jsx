@@ -15,12 +15,8 @@ const AllPhotospage = async () => {
     <PhotoCard key={photo.id} photo={photo} />
 ))}
             </div>
-            
-            
-        </div>
-        
+        </div>  
     );
-    
 };
 
 export default AllPhotospage;

@@ -9,7 +9,7 @@ const SortByPrice = ({ onSort }) => {
   const handleSelect = (label, value) => {
     setSelected(label);
     setOpen(false);
-    onSort(value);
+onSort && onSort(value);
   };
 
   return (

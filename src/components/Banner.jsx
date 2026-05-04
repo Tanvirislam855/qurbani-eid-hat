@@ -17,7 +17,7 @@ const Banner = () => {
           
 
           <div className="flex gap-6">
-            <Link href="#">
+            <Link href="/all-animals">
               <Button className="bg-linear-to-r from-pink-500 via-purple-500 bg-red-500 ">
                  <span className="animate__animated animate__bounce inline-block">Browse Animals</span>
               </Button>

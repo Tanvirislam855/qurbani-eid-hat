@@ -22,11 +22,11 @@ const Navbar = () => {
             src={"/logo.png"}
             alt="logo"
             loading="eager"
-            width={60}
-            height={60}
+            width={70}
+            height={70}
             className="object-cover h-auto w-auto"
           />
-          <h3 className="font-black text-lg">QurbaniHat</h3>
+          <h3 className="font-black text-2xl">QurbaniHat</h3>
         </div>
 
         <ul className="flex items-center gap-5 text-sm">

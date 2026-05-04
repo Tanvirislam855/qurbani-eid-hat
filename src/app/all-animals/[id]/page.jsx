@@ -58,7 +58,7 @@ const PhotoDetailsPage = async ({ params }) => {
                     <p className="text-4xl font-black text-orange-600">৳ {photo?.price.toLocaleString()}</p>
                 </div>
 
-                <button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 rounded-xl shadow-lg transition-all mt-4">
+                <button className="w-3xl bg-blue-600 hover:bg-green-950 text-white font-bold py-4 rounded-xl shadow-lg transition-all mt-4">
                     Buy Now
                 </button>
                 

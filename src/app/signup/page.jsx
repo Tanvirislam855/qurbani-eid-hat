@@ -12,7 +12,8 @@ import {
   TextField,
 } from "@heroui/react";
 import { useRouter } from "next/navigation";
-
+// লাইন ১৫ এর পরে এটি যোগ করুন
+import toast from "react-hot-toast";
 export default function SignUpPage() {
 
     const router = useRouter()
@@ -34,8 +35,6 @@ export default function SignUpPage() {
     
 
     console.log({data, error});
-
-
     if(!error) {
         router.push('/')
     }

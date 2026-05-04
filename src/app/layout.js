@@ -3,11 +3,13 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import 'animate.css';
+import { Toaster } from 'react-hot-toast';
 
 const OutfitFont = Outfit({
 
   subsets: ["latin"],
 });
+
 
 
 
@@ -22,7 +24,19 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${OutfitFont.className}  h-full antialiased`} 
     >
-      <body>
+      
+      <body suppressHydrationWarning={true}>
+        <Toaster 
+        position="top-center" 
+        reverseOrder={false}
+        
+ 
+  
+  toastOptions={{
+    duration: 10000, // ১০ সেকেন্ডের জন্য
+  }} 
+/>
+         
         <Navbar></Navbar>
         {children}
         <Footer></Footer>

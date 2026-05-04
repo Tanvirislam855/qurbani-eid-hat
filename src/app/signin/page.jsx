@@ -2,6 +2,7 @@
 import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
 import { FcGoogle } from "react-icons/fc";
+import toast from "react-hot-toast";
 import {
   Button,
   Card,
@@ -32,8 +33,12 @@ export default function SignInPage() {
     console.log({ data, error });
 
     if (!error) {
+      toast.success("Welcome back! Login successful.");
       router.push("/");
+    } else{
+      toast.error(error.message || "Invalid email or password.");
     }
+
   };
 
   const handleGoogleSignIn = async () => {
