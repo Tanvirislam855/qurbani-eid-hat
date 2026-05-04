@@ -1,6 +1,6 @@
 import { createAuthClient } from "better-auth/react"
 export const authClient = createAuthClient({
 
-    baseURL: "http://localhost:3000"
+    baseURL: "https://qurbani-eid-hat.vercel.app"
 })
 export const { signIn, signup, signOut, useSession } = createAuthClient ()
