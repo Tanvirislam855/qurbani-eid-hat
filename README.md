@@ -57,10 +57,9 @@ Follow these steps to set up and run the project locally on your machine.
    ```bash
    git clone [https://github.com/Tanvirislam855/qurbani-eid-hat.git](https://github.com/Tanvirislam855/qurbani-eid-hat.git)
    cd qurbani-eid-hat
-###Install project dependencies:Bashnpm install
-Configure Environment Variables:Create a .env.local file in the root directory and add the following variables:Code 
-
-🛠️ Available ScriptsCommandActionnpm run devStarts the local development servernpm run buildBuilds the optimized production applicationnpm run startStarts the production server buildnpm run lintChecks code formatting and ESLint rules📁 Project StructurePlaintextqurbani-eid-hat/
+📁 Project Structure
+Plaintext
+qurbani-eid-hat/
 ├── 📁 public/            # Static images & assets
 ├── 📁 src/
 │   ├── 📁 app/           # Next.js App Router pages and API routes
@@ -69,4 +68,3 @@ Configure Environment Variables:Create a .env.local file in the root directory a
 │   └── 📁 lib/           # Database connection & helpers
 ├── 📄 package.json       # Dependencies and scripts
 └── 📄 README.md          # Project documentation
-👨‍💻 AuthorMd Sadman Islam Tanvir🌐 GitHub: @Tanvirislam855
