@@ -60,19 +60,13 @@ Follow these steps to set up and run the project locally on your machine.
 ###Install project dependencies:Bashnpm install
 Configure Environment Variables:Create a .env.local file in the root directory and add the following variables:Code 
 
-snippetMONGODB_URI=your_mongodb_connection_string
-NEXTAUTH_SECRET=your_nextauth_secret_key
-NEXTAUTH_URL=http://localhost:3000
-Run the development server:Bashnpm run dev
-Open in Browser:Navigate to http://localhost:3000 to view the application live.🛠️ Available Scripts & CommandsCommandActionnpm run devStarts the local development servernpm run buildBuilds the optimized production applicationnpm run startStarts the production server buildnpm run lintChecks code formatting and ESLint rules📁 Project StructurePlaintextqurbani-eid-hat/
-├── 📁 public/            # Static images, icons & assets
+🛠️ Available ScriptsCommandActionnpm run devStarts the local development servernpm run buildBuilds the optimized production applicationnpm run startStarts the production server buildnpm run lintChecks code formatting and ESLint rules📁 Project StructurePlaintextqurbani-eid-hat/
+├── 📁 public/            # Static images & assets
 ├── 📁 src/
-│   ├── 📁 app/           # Next.js App Router pages, layouts, and API routes
-│   ├── 📁 components/    # Reusable UI components (Cards, Navbar, Modals)
+│   ├── 📁 app/           # Next.js App Router pages and API routes
+│   ├── 📁 components/    # Reusable UI components
 │   ├── 📁 hooks/         # Custom React hooks
-│   └── 📁 lib/           # Database connection, utilities & helper functions
-├── 📄 .env.local         # Environment configuration (git-ignored)
+│   └── 📁 lib/           # Database connection & helpers
 ├── 📄 package.json       # Dependencies and scripts
 └── 📄 README.md          # Project documentation
-
 👨‍💻 AuthorMd Sadman Islam Tanvir🌐 GitHub: @Tanvirislam855
