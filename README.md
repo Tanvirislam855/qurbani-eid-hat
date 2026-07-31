@@ -1,6 +1,7 @@
- f![Uploading Screenshot 2026-07-31 at 5.06.58 PM.png…]()
-<img width="1470" height="762" alt="Screenshot 2026-07-31 at 5 06 47 PM" src="https://github.com/user-attachments/assets/e851d762-1a19-474f-b63a-629e67f7980d" />
 <img width="1466" height="761" alt="Screenshot 2026-07-31 at 5 06 35 PM" src="https://github.com/user-attachments/assets/a050bebd-1b09-4ead-8c28-8063124d8656" />
+<img width="1470" height="762" alt="Screenshot 2026-07-31 at 5 06 47 PM" src="https://github.com/user-attachments/assets/e851d762-1a19-474f-b63a-629e67f7980d" />
+<img width="1470" height="711" alt="Screenshot 2026-07-31 at 5 06 58 PM" src="https://github.com/user-attachments/assets/647a2804-5911-4c70-9a85-3186ed128824" />
+
 Markdown# 🐂 QurbaniHat — Modern Sacrificial Livestock Marketplace
 
 A feature-rich, full-stack marketplace web application built to connect cattle buyers and sellers seamlessly during Eid-ul-Adha. Users can browse, filter, search, and manage sacrificial animals with secure authentication and dynamic real-time data handling.
@@ -56,8 +57,10 @@ Follow these steps to set up and run the project locally on your machine.
    ```bash
    git clone [https://github.com/Tanvirislam855/qurbani-eid-hat.git](https://github.com/Tanvirislam855/qurbani-eid-hat.git)
    cd qurbani-eid-hat
-Install project dependencies:Bashnpm install
-Configure Environment Variables:Create a .env.local file in the root directory and add the following variables:Code snippetMONGODB_URI=your_mongodb_connection_string
+###Install project dependencies:Bashnpm install
+Configure Environment Variables:Create a .env.local file in the root directory and add the following variables:Code 
+
+snippetMONGODB_URI=your_mongodb_connection_string
 NEXTAUTH_SECRET=your_nextauth_secret_key
 NEXTAUTH_URL=http://localhost:3000
 Run the development server:Bashnpm run dev
@@ -71,4 +74,5 @@ Open in Browser:Navigate to http://localhost:3000 to view the application live.�
 ├── 📄 .env.local         # Environment configuration (git-ignored)
 ├── 📄 package.json       # Dependencies and scripts
 └── 📄 README.md          # Project documentation
+
 👨‍💻 AuthorMd Sadman Islam Tanvir🌐 GitHub: @Tanvirislam855
